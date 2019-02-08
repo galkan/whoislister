@@ -11,7 +11,7 @@ SERVER_FILE="`mktemp /tmp/$USER.XXXXXX`"
 
 
 function usage() {
-	echo "Usage: $0 [-d <example> ] [-f <@example.com> ] [ -t <thread_count>]" 1>&2
+	echo "Usage: $0 [-d <example> ] [-f <@example.com> ] [ -t <thread_count>] [-o <output_file>]" 1>&2
 	exit 1
 }
 
